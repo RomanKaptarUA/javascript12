@@ -1,3 +1,31 @@
+//1
+// const user = {
+//   name: 'Mango',
+//   age: 20,
+//   hobby: 'html',
+//   premium: true,
+// };
+// user.mood = 'Happy';
+// user.hobby = 'skydiving';
+// user.premium = false;
+
+// const keys = Object.keys(user);
+// for (const key of keys) {
+//   console.log(`${key}:${user[key]}`);
+// }
+
+//2 
+const countProps = function (obj) {
+  return Object.keys
+};
+
+console.log(countProps({}));
+console.log(countProps({ name: 'Mango', age: 2}));
+
+console.log(countProps({mail: 'romankaptar82@gmail.com', isOnline: true, score: 500}));
+
+//3
+
 // const findBestEmployee = function (employees) {
 //     let bestEmployee = '';
 //     let maxTast = 0;
@@ -20,6 +48,8 @@
 //     })
 // )
 
+
+//4
 // const countTotalSalary = function (employees) {
 //     let totalSalary = 0;
 //     for (const salary of Object.values(employees)) {
@@ -27,40 +57,6 @@
 //     }
 //     return totalSalary;
 // }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
