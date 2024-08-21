@@ -1,18 +1,18 @@
-//1
-// const user = {
-//   name: 'Mango',
-//   age: 20,
-//   hobby: 'html',
-//   premium: true,
-// };
-// user.mood = 'Happy';
-// user.hobby = 'skydiving';
-// user.premium = false;
+1
+const user = {
+  name: 'Mango',
+  age: 20,
+  hobby: 'html',
+  premium: true,
+};
+user.mood = 'Happy';
+user.hobby = 'skydiving';
+user.premium = false;
 
-// const keys = Object.keys(user);
-// for (const key of keys) {
-//   console.log(`${key}:${user[key]}`);
-// }
+const keys = Object.keys(user);
+for (const key of keys) {
+  console.log(`${key}:${user[key]}`);
+}
 
 //2 
 const countProps = function (obj) {
@@ -26,27 +26,27 @@ console.log(countProps({mail: 'romankaptar82@gmail.com', isOnline: true, score: 
 
 //3
 
-// const findBestEmployee = function (employees) {
-//     let bestEmployee = '';
-//     let maxTast = 0;
-//     for (const [name, tasks] of Object.entries(employees)) {
-//         if (tasks > maxTask) {
-//             maxTask = tasks;
-//             bestEmployee = name;
-//         }
-//     }
-//     return bestEmployee;
-// };
+const findBestEmployee = function (employees) {
+    let bestEmployee = '';
+    let maxTast = 0;
+    for (const [name, tasks] of Object.entries(employees)) {
+        if (tasks > maxTask) {
+            maxTask = tasks;
+            bestEmployee = name;
+        }
+    }
+    return bestEmployee;
+};
 
-// console.log(
-//     findBestEmployee({
-//         ann: 29,
-//         david: 21,
-//         yura: 15,
-//         roma: 51,
-//         nazar: 50,
-//     })
-// )
+console.log(
+    findBestEmployee({
+        ann: 29,
+        david: 21,
+        yura: 15,
+        roma: 51,
+        nazar: 50,
+    })
+)
 
 
 //4
